@@ -21,7 +21,9 @@ body{
     background-image: url("./IMG/arcane_dsktp_centerAlignedCrd_BG_2x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family:riot3;
+    background-position: 0px;
 }
 
 *{
