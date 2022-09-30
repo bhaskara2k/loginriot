@@ -1,48 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Live</title>
-    <link rel="icon" type="image/png" href="./IMG/188918.png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="script.js" />
+    <title>Iniciar sessão</title>
+    <link rel="stylesheet" href="riot.css">
     <script src="https://unpkg.com/feather-icons"></script>
-  </head>
-  <body>
+</head>
 
-    <div class="form-container">
-        <form>
-            <h3>Iniciar sessão</h3>
-            <div class="input-container">
-                <input type="text" placeholder="NOME DE USUÁRIO">
-                <i data-feather="user"></i>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="./IMG/riot.png" width="210px">
+        </div>
+        <div class="login">
+                <div class="login-container">
+                    <div class="texto">
+                        <h3>Iniciar sessão</h3>
+                    </div>
+                    <div class="form-log">
+                        <form>
+                            <input type="text" placeholder="NOME DE USUÁRIO">                                            
+                            <input type="password" placeholder="SENHA">
+                        </form>
+                    </div>
+                    <div class="social">
+                        <div class="facebook">
+                            <a href="facebook.com"> <img src=".//IMG/facebook.png" width="25" height="25"></a>
+                        </div>
+                        <div class="google">
+                            <a href="google.com"> <img src=".//IMG/google.png" width="25" height="25"></a>
+                        </div>
+                        <div class="apple">
+                            <a href="apple.com"> <img src=".//IMG/apple.png" width="21" height="27"></a>
+                        </div>
+
+                    </div>
+                    <div class="manter">
+                        <label class="checkbox-container">Manter login
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                    </label>                    
+                </div>
+                    <div class="entrar-log">
+                        <button class="button"> <img src="./IMG/seta.png" width="35px"></button>
+                    </div>
+                        <div class="criar-conta">
+                            <a href="riot.com">NÃO CONSEGUE FAZER LOGIN?</a> 
+                            <br>
+                            <a href="riot.com" class="criar">CRIAR CONTA</a>
+                        </br>
+                        
+                        </div>
+                
+                    </div>
+               
+                </div>
+        <div class="footer">
+            <div class="final">
+                <ul id="menufinal">
+                    <li> <a href="">SUPORTE</a></li>
+                    <li> <a href="">AVISO DE PRIVACIDADE</a></li>
+                    <li> <a href="">TERMO DE SERVIÇO</a></li>
+                    <li> <a href="">PREFERÊNCIAS DE COOKIES</a></li>
+                    <li> <a href="">PT-BR</a></li>
+
+                </ul>
             </div>
-
-            <div class="input-container">
-                <input type="password" placeholder="SENHA">
-                <i data-feather="eye-off"></i>
-            </div>
-
-            <div class="options-container">
-                <div class="checkbox-container">
-                    <input type="checkbox" name="remember" id="remember">
-                    <label for="remember">Manter login</label>
-                </div><a href="www.google.com">Esqueci a senha</a>
-            </div>
-
-            <button class="button"> <img src="./IMG/arrow-right.svg"height ="40" width="80"></button>
-
-
-        </form=>
+                <h4>© 2020 RIOT GAMES. TODOS OS DIREITOS RESERVADOS.</h4>
 
     </div>
+    
 
+    
+ 
 
-
-   
     <script>
         feather.replace()
-      </script>
-  </body>
+    </script>
+
+</body>
 </html>
